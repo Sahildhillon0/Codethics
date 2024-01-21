@@ -1,0 +1,172 @@
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #35424a;
+    border-bottom: 5px solid coral;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover{
+    color:coral;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin:0;
+}
+
+#highlight, #current, .mail{
+    color: coral;
+    font-weight: bold;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#showcase{
+    min-height: 400px;
+    color: #ffffff;
+    background: url(../Images/showcase.jpg);
+    text-align: center;
+    background-size: cover;
+}
+
+#showcase h1{
+    margin-top: 0%;
+    padding: 0%;
+}
+
+#headtop h1{
+    display: inline-block;
+    margin-top:100px ;
+    margin-bottom: 10px;
+    font-size: 55px;
+}
+
+#headtop p{
+    font-size: 20px;
+}
+
+.suggestions{
+    margin: 0%;
+    padding: 0%;
+    background-color: #35424A;
+    min-height: 50px;
+    color:#ffffff
+}
+
+.suggestions h2{
+    margin: 0%;
+    padding: 0%;
+}
+
+#mail{
+    list-style: none;
+}
+
+.suggestions div{
+    width: 80%;
+    margin: auto;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.boxes{
+    margin-top: 20px;
+}
+
+.boxes .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 1.5%;
+}
+
+#about{
+    float: left;
+    width: 65%;
+}
+
+#about h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.services{
+    float: left;
+    width: 65%;
+
+}
+
+.services h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.service_list{
+    background-color: #5555;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.dark{
+    background-color: #35424a;
+    padding: 15px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-top: 1%;
+    padding: 1%;
+    border-top: 2px solid grey;
+    text-align: center;
+    background-color: coral;
+    color: #ffffff;
+    font-size: 20px;
+}
